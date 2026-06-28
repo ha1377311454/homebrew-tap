@@ -35,6 +35,6 @@ class Sterm < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/sterm --version")
+    assert_match "SSH connection manager", shell_output("#{bin}/sterm --help", 2)
   end
 end
