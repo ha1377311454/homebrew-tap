@@ -1,28 +1,28 @@
 class Sterm < Formula
   desc "Terminal SSH connection manager with SFTP and themes"
   homepage "https://github.com/ha1377311454/sterm"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ha1377311454/sterm/releases/download/v0.1.0/sterm_darwin_arm64"
-      sha256 "23602d6016e0eef432e3f68540cd311b28606f479382ef7b70bedb5818452349"
+      url "https://github.com/ha1377311454/sterm/releases/download/v0.1.1/sterm_darwin_arm64"
+      sha256 "7f693a96bc378bdc3892341bb8d57fff9570598ae86cc4852d322150e46aaec1"
     end
     on_intel do
-      url "https://github.com/ha1377311454/sterm/releases/download/v0.1.0/sterm_darwin_amd64"
-      sha256 "81cf8bbd9f52d01e5f2e82b66b2c4d6c61b53bb7d7faeff96734840ce2933426"
+      url "https://github.com/ha1377311454/sterm/releases/download/v0.1.1/sterm_darwin_amd64"
+      sha256 "dcdcac2f135cea459fab3ee2c63aaf7c309b231cbb8eeaa7e08edec6f24c714f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ha1377311454/sterm/releases/download/v0.1.0/sterm_linux_arm64"
-      sha256 "bba37d5b210ce0a5e34e309bee25a3d2603bfe86a0cad774a4dcab860396ab00"
+      url "https://github.com/ha1377311454/sterm/releases/download/v0.1.1/sterm_linux_arm64"
+      sha256 "94533f88d0b31c31bf26c1f5a492a03e4f605fa57c307a62e9ce6af9b42fd1c6"
     end
     on_intel do
-      url "https://github.com/ha1377311454/sterm/releases/download/v0.1.0/sterm_linux_amd64"
-      sha256 "2ff05d3f7f6a2fe2d5ce6f6ae94a40bc2894325a955ccc4c01af7a1177822d2d"
+      url "https://github.com/ha1377311454/sterm/releases/download/v0.1.1/sterm_linux_amd64"
+      sha256 "fb745d0e157362c01aab5d8ee3d44a9a43c80907d85f1bfeddf732187bf8ca89"
     end
   end
 
